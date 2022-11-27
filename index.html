@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Theme Made By www.w3schools.com -->
+    <title>Project Management</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="mediasize.css" />
+    <link rel="stylesheet" href="myformat.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Bitter&family=Julius+Sans+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="images/icon.ico">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="myscript.js"></script>
+
+</head>
+
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#myPage"><i class="material-icons">flare</i><span
+                        class="original">&nbsp;70309</span></a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#download">Download</a></li>
+                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Assignment</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#task1">Task 1</a></li>
+                            <li><a href="#task2">Task 2</a></li>
+                            <li><a href="#task3">Task 3</a></li>
+                            <li><a href="#task4">Task 4</a></li>
+                            <li><a href="#task5">Task 5</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="jumbotron text-center">
+        <h1>Evaluate and communicate business requirements</h1>
+        <br /><br />
+        <h2>this page is created by sang ah park (70309)</h2>
+    </div>
+
+    <!-- Container (Download Section) -->
+    <div id="links" class="container-fluid section-border width80">
+        <div class="row">
+            <h2 class="text-center">Links</h2><br>
+            <img src="images/frame.png" class="leftimg" id="hideme">
+            <p class="linkbutton"><a
+                    href="https://one-rainy-day.github.io/ECBR/downloads/70309_Evaluate and Communicate Biz Req_Assessment.docx"
+                    download>Assignment task</a></p>
+            <p class="linkbutton"><a
+                href="https://docs.google.com/forms/d/e/1FAIpQLSe1wYPYwV8No9nXRZv7nIxN6EIH7vHDRh6WYMEgwGhfNvibiw/viewform?usp=sf_link"
+                download>Website Survey</a></p>
+            <p class="linkbutton"><a
+                href="https://docs.google.com/spreadsheets/d/1pZjt8-l_QU_Gb_IULvu8Ll1iIPf_PxJNWff2qanw2wg/edit?resourcekey=undefined#gid=1483606813"
+                download>Survey Responses</a></p>
+        </div>
+        
+
+    </div>
+
+    <!-- Container (Task 1 Section) -->
+    <div id="task1" class="container-fluid section-border width80">
+        <div class="row">
+            <h2 class="text-center">Task 1: Determine support areas </h2><br>
+            <p><b>Identify information technology (HW and SW) and list the technology in use in D&K Books and consider
+                    the
+                    following:</b>
+            <ul class="dot-listing">
+                <li>What sort of support does the technology require?</li>
+                <li>Who is likely to provide this support?</li>
+                <li>Does the support arrangement already exist?</li>
+            </ul>
+            Present your answer in a table such as the one below:
+            </p>
+            <div class="table-responsive">
+                <table class="table t1">
+                    <thead>
+                        <tr>
+                            <th>Technology</th>
+                            <th>Description</th>
+                            <th>Support required</th>
+                            <th>provider</th>
+                            <th>Support exist</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>QuickBooks Software</td>
+                            <td>ERP system that is designed to help business to manage the entire business cycle
+                                including sales, inventory, orders, accounts, and employment related problems.</td>
+                            <td>Customisation, upgrades, training, user support</td>
+                            <td>Various providers (such as Oracle and Gartner) are in market.</td>
+                            <td>Yes</td>
+                        </tr>
+                        <tr>
+                            <td>PCs</td>
+                            <td>Intel I3 Desktop cloned</td>
+                            <td>Upgrade, repairs, customisation, networking</td>
+                            <td>Any</td>
+                            <td>Yes (Assuming D&K Books obtained a warranty from the seller)</td>
+                        </tr>
+                        <tr>
+                            <td>Server</td>
+                            <td>Linux server</td>
+                            <td>Accounts & permission management, security protection, backup and restore, upgrade,
+                                software installation</td>
+                            <td>Any</td>
+                            <td>Yes (Assuming D&K Books obtained a warranty from the seller)</td>
+                        </tr>
+                        <tr>
+                            <td>EFTPOS</td>
+                            <td>Debit and credit card payments system</td>
+                            <td>Accounts & permission management, upgrade, user support</td>
+                            <td>Various providers (such as Suncorp, NAB, Commonwealth bank) are in market.</td>
+                            <td>Yes</td>
+                        </tr>
+                        <tr>
+                            <td>Telephone system</td>
+                            <td>PABX is multiline telephone system typically used in business environments</td>
+                            <td>Account, user support</td>
+                            <td>Various providers (such as Telstra, Optus, Vodafone) are in market.</td>
+                            <td>Yes</td>
+                        </tr>
+                        <tr>
+                            <td>Website</td>
+                            <td>Helping customers to access your products or services anywhere, anytime.</td>
+                            <td>Web hosting, resource management, user support</td>
+                            <td>Various providers (such as Telstra, Optus, Vodafone) are in market.</td>
+                            <td>Yes</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Container (Task 2 Section)-->
+    <div id="task2" class="container-fluid section-border width80">
+        <div class="row">
+            <h2 class="text-center">Task 2: Identify stakeholders</h2><br>
+            <p><b>Identify stakeholders related in D&K Books system:</b></p>
+            <ul class="dot-listing">
+                <li>All the staff</li>
+                <li>Customers</li>
+                <li>Suppliers / Service providers</li>
+            </ul>
+        </div><br />
+    </div>
+
+    <!-- Container (Task 3 Section) -->
+    <div id="task3" class="container-fluid section-border width80">
+        <div class="row">
+            <h2 class="text-center">Task 3: Develop support procedures </h2><br>
+            <p><b>1. Describe one positive and one negative experience you have had when seeking assistance from a
+                    telecommunication company, an ISP or a computer supplier. Your experience may be via telephone,
+                    email or
+                    even voice recognition.</b></p>
+            <div class="table-responsive">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Positive experience</th>
+                            <th>Negative experience</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>I had a problem with my computer. I called the service centre of the manufacturer and
+                                have my computer fixed next day. </td>
+                            <td>We had a problem with the internet connection at work. One of my co-workers called the
+                                service centre of the service provider, and the operator was impatient and rude. </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <p><b>2. Using the experiences described above please answer the following questions.</b>
+            <ul class="dot-listing">
+                <li>What support aspects were professional and/or unprofessional?</li>
+                <li>How long did the support process take?</li>
+                <li>Were the steps logical?</li>
+                <li>Did they solve your problem?</li>
+                <li>Was the call deflected to another area?</li>
+            </ul>
+            </p>
+            <div class="table-responsive">
+                <table class="table t3">
+                    <thead>
+                        <tr>
+                            <th>Question</th>
+                            <th>Positive experience</th>
+                            <th>Negative experience</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>What support aspects were professional and/or unprofessional?</td>
+                            <td>The service was immediate</td>
+                            <td>The operator did not consider the level of knowledge of users.</td>
+                        </tr>
+                        <tr>
+                            <td>How long did the support process take?</td>
+                            <td>One day</td>
+                            <td>1 Week</td>
+                        </tr>
+                        <tr>
+                            <td>Were the steps logical?</td>
+                            <td>Yes</td>
+                            <td>Yes and No (service matters)</td>
+                        </tr>
+                        <tr>
+                            <td>Did they solve your problem?</td>
+                            <td>Yes</td>
+                            <td>We ended up change the router</td>
+                        </tr>
+                        <tr>
+                            <td>Was the call deflected to another area?</td>
+                            <td>No</td>
+                            <td>No</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- Container (Task 4 Section) -->
+    <div id="task4" class="container-fluid section-border width80">
+        <div class="row">
+            <h2 class="text-center">Task 4: Assign Support Personnel </h2><br>
+            <p><b>Classify the following into soft skills and technical skills. Your answer should take the form of a
+                    table
+                    shown below.</b>
+            <div class="table-responsive">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Type</th>
+                            <th>Soft Skill</th>
+                            <th>Technical Skill</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>A knowledge of Linux</td>
+                            <td></td>
+                            <td>O</td>
+                        </tr>
+                        <tr>
+                            <td>The ability to work under pressure</td>
+                            <td>O</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>The administration of Windows 2008 Server</td>
+                            <td></td>
+                            <td>O</td>
+                        </tr>
+                        <tr>
+                            <td>The ability to formulate network and IT policies</td>
+                            <td>O</td>
+                            <td>O</td>
+                        </tr>
+                        <tr>
+                            <td>The ability to write network documentation</td>
+                            <td>O</td>
+                            <td>O</td>
+                        </tr>
+                        <tr>
+                            <td>The ability to give presentations</td>
+                            <td>O</td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <p>Comment: Soft skills are not confined to one job and can benefit you in any workplace. Hard or technical
+                skills are measurable abilities and knowledge that come through learning and can be job or
+                task-specific. Where writing documentation and formulating policies require knowledge related to IT and
+                network, they may also require critical thinking and communication skills.</p>
+        </div>
+    </div>
+
+    <!-- Container (task5 section) -->
+    <div id="task5" class="container-fluid section-border width80">
+        <h2 class="text-center">Task 5: Short Answer Questions </h2><br>
+        <div class="row">
+            <ul class="nav nav-justified nav-tabs">
+                <li class="active"><a data-toggle="tab" href="#q1">Q1</a></li>
+                <li><a data-toggle="tab" href="#q2">Q2</a></li>
+                <li><a data-toggle="tab" href="#q3">Q3</a></li>
+                <li><a data-toggle="tab" href="#q4">Q4</a></li>
+                <li><a data-toggle="tab" href="#q5">Q5</a></li>
+                <li><a data-toggle="tab" href="#q6">Q6</a></li>
+            </ul>
+            <div class="tab-content">
+                <div id="q1" class="tab-pane fade in active">
+                    <h3>1. Explain the relationship between data, information and knowledge. </h3>
+                    <ul class="dot-listing">
+                        <li>Data in their simplest form consist of raw alphanumeric values.</li>
+                        <li>Information is created when data are processed, organized, or structured to provide context
+                            and meaning. Information is essentially processed data. </li>
+                        <li>Knowledge is what we know.</li>
+                    </ul>
+                </div>
+                <div id="q2" class="tab-pane fade">
+                    <h3>2. What is quantitative data and how can you use it.</h3>
+                    <p>Quantitative data is data that can be counted or measured in numerical values. It is used when a
+                        researcher needs to quantify a problem, and answers questions like “what,” “how many,” and “how
+                        often.” This type of data is frequently used in math calculations, algorithms, or statistical
+                        analysis.</p>
+                </div>
+                <div id="q3" class="tab-pane fade">
+                    <h3>3. What is qualitative data and how can you use it.</h3>
+                    <p>Qualitative data is information that cannot be counted, measured or easily expressed using
+                        numbers. It is used to gain insights into people's feelings and thoughts and can be collected
+                        using questionnaires, interviews, or observation, and frequently appears in narrative form.</p>
+                </div>
+                <div id="q4" class="tab-pane fade">
+                    <h3>4. Give an example of how quantitative and qualitative data can be used in conjunction with each
+                        other</h3>
+                    <p>Qualitative data may help researchers to map out survey instruments for use in a quantitative
+                        study or researchers can simply use the two types of data together to gain deeper insight into
+                        particular questions. For example, to gain information about the quality of life in certain
+                        areas, the researchers may refer to quantitative data, such as GDP, literacy rate, longevity
+                        rate etc. However, it is also reasonable to interview people living there or receive answers
+                        using questionnaires.</p>
+                </div>
+                <div id="q5" class="tab-pane fade">
+                    <h3>5. What sort of methods could you use to determine client requirements for a website design and
+                        key information sources? </h3>
+                    <ul class="dot-listing">
+                        <li>Customer questionnaires</li>
+                        <li>Customer interview</li>
+                        <li>Visual reference</li>
+                        <li>Proto typing</li>
+                    </ul>
+                </div>
+                <div id="q6" class="tab-pane fade">
+                    <h3>6. Give some examples of client requirements for a website design</h3>
+                    <ul class="dot-listing">
+                        <li>Colour Scheme</li>
+                        <li>Branding</li>
+                        <li>Navigation bar</li>
+                        <li>Sitemap</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="task5" class="container-fluid section-border width80">
+        <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <img src="images/biz-req1.png">
+                </div>
+                <div class="item">
+                    <img src="images/biz-req2.jpg">
+                </div>
+                <div class="item">
+                    <img src="images/biz-req3.png">
+                </div>
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div><br>
+    </div>
+
+    <footer class="container-fluid text-center">
+        <a href="#myPage" title="To Top">
+            <span class="glyphicon glyphicon-chevron-up"></span>
+        </a>
+        <p>Powered by <a href="">70309</a></p>
+    </footer>
+</body>
+
+</html>
